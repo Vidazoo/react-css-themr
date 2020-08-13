@@ -1,7 +1,7 @@
 {
-  "name": "react-css-themr",
+  "name": "@vidazoo/react-css-themr",
   "description": "React CSS Themr",
-  "homepage": "https://github.com/javivelasco/react-css-themr#readme",
+  "homepage": "https://github.com/vidazoo/react-css-themr#readme",
   "version": "2.1.2",
   "main": "./lib",
   "author": {
@@ -9,12 +9,17 @@
     "name": "Javi Velasco",
     "url": "http://javivelasco.com/"
   },
+  "contributors": [{
+    "email": "udi.talias@gmail.com",
+    "name": "Udi Talias",
+    "url": "https://github.com/uditalias/"
+  }],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/javivelasco/react-css-themr.git"
+    "url": "git+https://github.com/vidazoo/react-css-themr.git"
   },
   "bugs": {
-    "url": "https://github.com/javivelasco/react-css-themr/issues"
+    "url": "https://github.com/vidazoo/react-css-themr/issues"
   },
   "keywords": [
     "css-modules",
@@ -28,7 +33,7 @@
     "invariant": "^2.2.1"
   },
   "devDependencies": {
-    "@types/react": "^15.0.24",
+    "@types/react": "^16.9.46",
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
     "babel-eslint": "^7.2.3",
@@ -45,8 +50,8 @@
     "jsdom": "^9.8.3",
     "mocha": "^3.3.0",
     "prop-types": "^15.5.9",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "rimraf": "^2.6.1",
     "sinon": "^1.17.6"
   },
@@ -63,8 +68,5 @@
     "test:watch": "npm test -- --watch"
   },
   "license": "MIT",
-  "peerDependencies": {
-    "react": "^0.14.0 || ^15.0.0-0"
-  },
   "typings": "./index.d.ts"
 }
