@@ -2,7 +2,7 @@
   "name": "@vidazoo/react-css-themr",
   "description": "React CSS Themr",
   "homepage": "https://github.com/vidazoo/react-css-themr#readme",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "main": "./lib",
   "author": {
     "email": "javier.velasco86@gmail.com",

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-declare module "react-css-themr" {
+declare module "@vidazoo/react-css-themr" {
   type TReactCSSThemrTheme = {
     [key: string]: string | TReactCSSThemrTheme
   }
